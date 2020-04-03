@@ -35,6 +35,8 @@
 #    define QXMPP_EXPORT Q_DECL_IMPORT
 #endif
 
+#define QXMPP_EXPORT
+
 #define QXMPP_AUTOTEST_EXPORT
 
 /// This macro expands a numeric value of the form 0xMMNNPP (MM =
