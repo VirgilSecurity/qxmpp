@@ -1,4 +1,3 @@
-add_definitions(-DQXMPP_BUILD)
 
 # disable Q_FOREACH()
 add_definitions(-DQT_NO_FOREACH)
