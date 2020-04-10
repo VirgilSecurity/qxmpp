@@ -29,11 +29,13 @@
 
 #include <QString>
 
-#if defined(QXMPP_BUILD)
-#    define QXMPP_EXPORT Q_DECL_EXPORT
-#else
-#    define QXMPP_EXPORT Q_DECL_IMPORT
-#endif
+//#if defined(QXMPP_BUILD)
+//#    define QXMPP_EXPORT Q_DECL_EXPORT
+//#else
+//#    define QXMPP_EXPORT Q_DECL_IMPORT
+//#endif
+
+#define QXMPP_EXPORT
 
 #define QXMPP_AUTOTEST_EXPORT
 
